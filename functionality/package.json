@@ -1,0 +1,21 @@
+{
+  "name": "aibot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "devStart": "nodemon bot.js",
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "openai": "^4.76.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
